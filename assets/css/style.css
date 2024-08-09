@@ -1,5 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --primary-color: #222831;
+    --secondary-color: #393E46;
+    --terciary-color: #00ADB5;
+    --optional-color: #EEEEEE
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Ubuntu", sans-serif
+}
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    z-index: 1000
+}
+
+.nav-bar h1 {
+    margin-right: 20px;
+    color: var(--terciary-color);
+    font-weight: bold;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.nav-bar a {
+    color: var(--optional-color);
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+#portafolio-sec {
+    background-color: #FFE6C7;
+    height: 50vh;
+}
+
+#educacion-sec{
+    background-color: #FF6000;
+    height: 50vh;
+}
+
+#experiencia-sec{
+    background-color: #454545;
+    height: 50vh;
 }
