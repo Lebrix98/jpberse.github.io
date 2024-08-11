@@ -44,6 +44,52 @@
     font-weight: lighter;
 }
 
+.hero-sec {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(-120deg, var(--terciary-color) 50%, var(--primary-color) 50%);
+    position: relative;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 100%
+}
+
+.hero-text-content {
+    max-width: 50%;
+}
+
+.hero-text-content p {
+    font-size: 16px;
+    color: var(--optional-color);
+    font-weight: lighter;
+}
+
+.hero-text-content h2 {
+    font-size: 48px;
+    color: var(--terciary-color);
+    font-weight: bolder;
+}
+
+.hero-text-content h3 {
+    font-size: 24px;
+    color: var(--optional-color);
+    font-weight: bold;
+}
+
+.hero-content img {
+    max-width: 140%;
+    filter: drop-shadow(
+        0 0 10px rgba(0, 0, 0, .3)
+    );
+}
+
 #portafolio-sec {
     background-color: #FFE6C7;
     height: 50vh;
