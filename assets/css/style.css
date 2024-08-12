@@ -48,7 +48,6 @@
 }
 
 .hero-sec {
-    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -72,6 +71,7 @@
     font-size: 1.6rem;
     color: var(--optional-color);
     font-weight: lighter;
+    padding-top: 2.4rem;
 }
 
 .hero-text-content h2 {
@@ -88,6 +88,7 @@
 
 .hero-content img {
     max-width: 100%;
+    height: auto;
     filter: drop-shadow(
         0 0 10px rgba(0, 0, 0, .3)
     );
