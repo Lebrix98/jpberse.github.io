@@ -94,7 +94,7 @@
     );
 }
 
-#educacion-sec{
+#id-educacion-sec{
     background-color: var(--secondary-color);
 }
 
@@ -156,7 +156,7 @@
     font-style: italic;
 }
 
-#experiencia-sec{
+#id-experiencia-sec{
     background-color: var(--optional-color);
 }
 
@@ -202,7 +202,7 @@
     color: var(--secondary-color);
 }  
 
-#portafolio-sec {
+#id-portafolio-sec {
     background-color: var(--terciary-color)
 }
 
@@ -241,6 +241,48 @@
     font-weight: 300;
     color: var(--secondary-color);
     font-style: italic;
+}
+
+#id-fork-section {
+    background-color: var(--secondary-color);
+}
+
+#id-fork-section h2 {
+    color: var(--terciary-color);
+    font-size: 4.8rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2.4rem;
+}
+
+.fork-section-container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.8rem;
+}
+
+.fork-section-container button {
+    background-color: var(--secondary-color);
+    padding: 0.8rem 1.2rem;
+    color: var(--terciary-color);
+    border: solid var(--terciary-color) 3px;
+    border-radius: 1.2rem;
+}
+
+.fork-section-container a {
+    text-decoration: none;
+    font-size: 4.8rem;
+    font-weight: 400;
+    color: var(--terciary-color);
+}
+
+.fork-section-container button:hover,
+.fork-section-container a:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .footer-sec{
